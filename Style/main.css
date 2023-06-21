@@ -380,19 +380,16 @@ nav button {
     margin-bottom: 4.45rem;
 
 }
-
 #Text_section {
     padding: 9rem 0 8rem 0;
     text-align: center;
 }
-
 #Text_section .blok img {
     width: 31.5rem;
     height: 31.2rem;
     margin-bottom: 3rem;
 
 }
-
 #Text_section .blok h3 {
     font-family: var(--font-family1);
     font-style: normal;
@@ -584,21 +581,44 @@ footer {
     line-height: 3.2rem;
     color: var(--color-text3);
 }
-
 /* Footer finish*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Mobile form finish */
+/* Tabel start */
+@media screen  and (min-width:640px) and (max-width:1240px){
+    .container{
+    width: 96%;
+    margin: 0 auto;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav ul{
+        display: flex;
+        gap: 4rem;
+    }
+    .nav_icons img {
+        display: none;
+    }
+
+    
+}
+/* Tabel finish */
+/* Desktop start */
+@media screen and (min-width:1240px) {
+    .container{
+        width: 96%;
+    }
+    nav{
+        gap: 4rem;
+    }
+    nav ul{
+        display: flex;
+    }
+    .nav_icons img{
+        display: none;
+    }
+}
+/* Desktop finish */
+
 /***** Figma finish *****/
