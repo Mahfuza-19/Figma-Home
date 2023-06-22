@@ -50,7 +50,7 @@ button {
 /* Unversal code finish */
 /* Mobile form start */
 .container {
-    max-width: 33.5rem;
+    width: 33.5rem;
     margin: 0 auto;
 }
 
@@ -380,16 +380,19 @@ nav button {
     margin-bottom: 4.45rem;
 
 }
+
 #Text_section {
     padding: 9rem 0 8rem 0;
     text-align: center;
 }
+
 #Text_section .blok img {
     width: 31.5rem;
     height: 31.2rem;
     margin-bottom: 3rem;
 
 }
+
 #Text_section .blok h3 {
     font-family: var(--font-family1);
     font-style: normal;
@@ -581,44 +584,285 @@ footer {
     line-height: 3.2rem;
     color: var(--color-text3);
 }
+
 /* Footer finish*/
 /* Mobile form finish */
 /* Tabel start */
-@media screen  and (min-width:640px) and (max-width:1240px){
-    .container{
-    width: 96%;
-    margin: 0 auto;
-    }
-    nav{
-        display: flex;
-        justify-content: space-between;
-    }
-    nav ul{
-        display: flex;
-        gap: 4rem;
-    }
-    .nav_icons img {
-        display: none;
+@media screen and (min-width:700px) {
+    .container {
+        width: 85rem;
+        margin: 0 auto;
     }
 
-    
-}
-/* Tabel finish */
-/* Desktop start */
-@media screen and (min-width:1240px) {
-    .container{
-        width: 96%;
+    /* Header start */
+    nav {
+        display: flex;
+        padding-top: 4.5rem;
+        margin-bottom: 9.6rem;
     }
-    nav{
+
+    nav ul {
+        display: flex;
+        gap: 4rem;
+        margin-right: -6rem;
+    }
+
+    .nav_icons img {
+        display: none;
+
+    }
+
+    nav ul li a {
+        font-size: 1.4rem;
+        font-family: var(--font-family1);
+        font-weight: 700;
+        line-height: 2rem;
+        color: var(--color-text1);
+
+
+    }
+
+    #header_section h1 {
+        color: var(--color-text1);
+        font-size: 5.6rem;
+        font-family: var(--font-family1);
+        font-weight: 800;
+        line-height: 7.35rem;
+        text-align: start;
+        width: 60rem;
+        margin-bottom: 2rem;
+    }
+
+    #header_section p {
+        width: 40rem;
+        font-size: 1.2rem;
+        font-family: var(--font-family1);
+        line-height: 2.3rem;
+        text-align: left;
+        margin-bottom: 2rem;
+
+    }
+
+    #header_section button {
+        margin-bottom: 12.7rem;
+
+    }
+
+    /* Header finish */
+    /* Main start */
+    #Kalite_section {
+        padding: 12rem 0 5rem 0;
+    }
+
+    #Kalite_section h2 {
+        font-size: 3.6rem;
+        margin-bottom: 3.2rem;
+    }
+
+    #Kalite_section p {
+        font-size: 2.4rem;
+        line-height: 3.95rem;
+        margin-bottom: 9.1rem;
+
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 9.3rem;
+
+    }
+
+    .cards img {
+        margin-bottom: 1rem;
+        margin-left: 17rem;
+    }
+
+    .cards p {
+        width: 40rem;
+    }
+
+    .card-1::before {
+        margin-left: 18rem;
+
+    }
+
+    .card-2::before {
+        margin-left: 16rem;
+    }
+
+    .card-3::before {
+        margin-left: 17rem;
+
+    }
+
+    .card-4::before {
+        margin-left: 19rem;
+
+    }
+
+    .card-5::before {
+        margin-left: 16rem;
+
+    }
+
+    .card-6::before {
+        margin-left: 18rem;
+
+    }
+
+    .cards h3 {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .cardd {
+        display: flex;
+        /* justify-content: space-between; */
         gap: 4rem;
     }
-    nav ul{
+
+    #Test_section h3 {
+        font-size: 4.8rem;
+        line-height: 6.4rem;
+    }
+
+    #Test_section h5 {
+        font-size: 1.8rem;
+        margin-bottom: 5rem;
+    }
+
+    .texts {
         display: flex;
+        gap: 1rem;
+        justify-content: space-between;
     }
-    .nav_icons img{
-        display: none;
+
+    #Test_section .texts h4 {
+        width: 18.7rem;
+        margin: 0;
+        text-align: left;
+        font-size: 1.4rem;
     }
+
+    .blok {
+        display: flex;
+        justify-content: space-between;
+        gap: 5.2rem;
+    }
+
+    .blok:nth-child(1) {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+
+    }
+
+    #Text_section .blok h3 {
+        font-size: 5.8rem;
+        line-height: 5.59rem;
+        text-align: left;
+    }
+
+    #Text_section .blok p {
+        text-align: left;
+        font-size: 1.4rem;
+
+    }
+    #Text_section .blok button {
+        padding: 1.2rem 3.6rem;
+        display: flex;
+        justify-content: left;
+    }
+
+    #Border_section {
+        padding: 4.5rem 0 7.5rem 0;
+    }
+
+    #Border_section h2 {
+        font-size: 48px;
+        text-align: center;
+        font-weight: 800;
+        line-height: 64px;
+        margin-bottom: 5px;
+    }
+
+    #Border_section p {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 32px;
+        margin-bottom: 48px;
+    }
+    .border{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+       }
+       .footer_link{
+        display: flex;
+        gap: 3.5rem;
+       }
+       .footer_text{
+        display: flex;
+        justify-content: space-between;
+       flex-direction: row-reverse;
+       align-items: center;
+       }
+       .footer_icons{
+        gap: 3rem;
+       }
+       .footer_icons a i{
+        font-size: 2rem;
+       }
+       .footer_icons a img{
+        width: 2.2rem;
+    height: 2.2rem;
+       }
+   
+
+
+    /* Main finish */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
+/* Tabel finish */
+/* Desktop start */
+@media screen and (min-width:1240px) {}
+
 /* Desktop finish */
 
 /***** Figma finish *****/
